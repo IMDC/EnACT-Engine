@@ -1,6 +1,6 @@
 ﻿package  
 {
-	import  fl.video.*;
+	import fl.video.*;
 	import flash.external.ExternalInterface;
 	import flash.display.StageScaleMode;
 
@@ -61,7 +61,7 @@
 		
 		function external_setPlayheadTime(time:Number):void
 		{
-			player.playheadTime = time;
+			player.seek(time);
 		}
 
 		/*
@@ -147,5 +147,4 @@
 			ExternalInterface.call("Done Loading");
 		}
 	}//Class
-	
 }//Package
