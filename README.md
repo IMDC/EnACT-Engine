@@ -1,4 +1,4 @@
-EnACT_Engine
+EnACT-Engine
 ============
 
 Emotive Caption Player
